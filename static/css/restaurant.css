@@ -1,0 +1,39 @@
+.navbar {
+    background-color: white;
+    font-family: sans-serif;
+}
+  
+.navbar-brand img {
+    max-height: 40px;
+}
+  
+.navbar-light .navbar-nav .nav-link {
+    color: #21568c;
+}
+  
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #3574a9 !important;
+}
+  
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -25px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    border-radius: 0;
+}
+  
+.btn-login {
+    background-color: #21568c;
+    color: white;
+}
+  
+.btn-login:hover {
+    background-color: #1E3771;
+    color: white;
+}
+
+.jumbotron {
+    background-color: white;
+}
