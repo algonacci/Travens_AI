@@ -276,6 +276,76 @@
       ],
       "responses": ["Asuransi perjalanan tidak bisa dibeli ketika Anda telah berada di luar negeri. Karena sebelum melakukan perjalanan, Anda harus terlebih dahulu terdaftar sebagai pengguna asuransi perjalanan."],
       "context": [""]
+    },
+    {
+      "tag": "jenis_paket_wisata",
+      "patterns": ["Apa saja jenis paket wisata yang tersedia di Travens?", "Jenis wisata yang tersedia di Travens?", "Jenis wisata yang ada di Travens?", "Jenis wisata Travens?","Jenis wisata?"],
+      "responses": ["Travens menyediakan berbagai jenis wisata yakni wisata Alam, Kuliner, Relaksasi, Keluarga, Belanja, Sejarah, Seni dan Budaya, dan juga Olahraga"],
+      "context": [""]
+    },
+    {
+      "tag": "Akomodasi_Travens?",
+      "patterns": ["Apa saja akomodasi yang disediakan oleh Travens?", "Akomodasi yang disediakan Travens?", "Gimana dengan akomodasinya?", "Bagaimana dengan akomodasinya?","akomodasi?"],
+      "responses": ["Saat ini pilihan akomodasi di Travens masih tergolong terbatas, akomodasi dalam paket wisata menggunakan akomodasi menengah, seperti contoh Sunari Resort Bungalow."],
+      "context": [""]
+    },
+    {"tag": "Mekanisme_pembayaran",
+    "patterns": ["Bagaimana mekanisme pembayaran paket wisata?", "Bagaimana tata cara pembayaran? ", "Gimana mekanisme pembayaran?","Bagaimana tata cara pembayaran?","Mekanisme pembayaran","Tata cara pembayaran?"],
+    "responses": ["Pembayaran paket wisata dapat melalui merchant, ATM, M-Banking, Internet Banking, dan Dompet Digital."],
+    "context": [""]
+    },
+    {
+      "tag": "Pay_later",
+      "patterns": ["Apakah ada fasilitas Pay Later?", "Apakah tersedia Pay Later?", "Tersedia pay later?", "Ada pay later?","pay later?"],
+      "responses": ["Mohon maaf, untuk saat ini kami belum menyediakan layanan Pay Later."],
+      "context": [""]
+    },
+    {"tag": "Range_Budget_Perjalanan",
+      "patterns": ["Apakah ada range budget perjalanan?", "Berapa range budget perjalanan?", "Range budget perjalanan?", "Range Budget?","Budget perjalanan?"],
+      "responses": ["Range Budget tersedia dari Rp. 500.000 – Rp. 7.000.000"],
+      "context": [""]
+    },
+    {
+      "tag": "Fasilitas_Paket_Wisata_Premium",
+      "patterns": ["Fasilitas apa yang disediakan jika kita memilih paket wisata premium?", "Keuntungan paket wisata premium?", "Kelebihan paket wisata premium?", "fasilitas premium?","kelebihan premium?", "keunggulan premium?", "keuntungan premium?"],
+      "responses": ["Untuk setiap Paket Wisata Premium, Travens menyediakan fasilitas lengkap sehingga pada prinsipnya anda tinggal datang saja ke lokasi wisata, semua sudah kami sediakan. Hal-hal yang kami sediakan adalah Hotel bintang 3 dengan AC, 2 orang per kamar, Rental mobil atau mikrobus, airport transfer sesuai itinerary, Sewa perahu motor nelayan untuk perjalanan ke pulau-pulau kecil, Full konsumsi: sarapan, makan siang, makan malam, snack dan aqua, Pemandu wisata berpengalaman sesuai itenary di program tour kami, Tiket tempat wisata, Tiket pesawat tidak termasuk di dalam Paket Wisata kami kecuali untuk trip yang memang sudah kami tawarkan dengan tiket pesawat."],
+      "context": [""]
+    },
+    {
+      "tag": "Sifat_Itenerary",
+      "patterns": ["Apakah itenerary sifatnya sangat mengikat?", "Seberapa mengikat itenerarynya?"],
+      "responses": ["Tidak, untuk Private Tour. Itinerary hanyalah gambaran program dan tempat-tempat yang akan dikunjungi. Pada pelaksanaannya kami akan melakukan beberapa penyesuaikan tergantung kondisi cuaca, waktu dan jadwal pesawat anda. Kami memastikan tempat-tempat utama yang ada di dalam itinerary akan dikunjungi, hanya saja waktunya bisa saja kami tukar satu sama lain."],
+      "context": [""]
+    },
+    {
+      "tag": "Reschedule_Jadwal",
+      "patterns": ["Bisakah mereschedule jadwal perjalanan?", "Bisa reschedule jadwal?","Reschedule jadwal?","Boleh reschedule jadwal?","Bolehkah mereschedule jadwal?"],
+      "responses": ["Ya, bisa. Namun, akan ada biaya pinalti tertentu."],
+      "context": [""]
+    },
+    {
+      "tag": "Penawaran_Paket_Wisata",
+      "patterns": ["Apakah paket wisata dapat ditawar?", "Bisakah menawar paket wisata?","Bisa tawar?","Ada tawar menawar?”,”Boleh menawar?"],
+      "responses": ["Mohon maaf, untuk saat ini kami belum menyediakan layanan penawaran terhadap paket wisata."],
+      "context": [""]
+    },
+    {
+      "tag": "Custom_Itenerary",
+      "patterns": ["Apakah kami bisa membuat itenerary sendiri?","Bisa custom itenerary?","Ada itenerary custom?","Bisa rancang itenerary sendiri?","Boleh custom itenerary?"],
+      "responses": ["Ya, bisa. Selama seluruh peserta di dalam grup sepakat untuk memodifikasi itinerary yang kami berikan. Jika tidak, sebaiknya anda melakukan reservasi sebagai private tour. Dengan demikian anda bebas mengatur waktu dan tempat-tempat yang ingin anda kunjungi. Perubahan itinerary tidak akan dikenakan tambahan biaya selama masih dalam jarak rute perjalanan dan durasi waktu yang kami sampaikan pada itinerary asli dari kami."],
+      "context": [""]
+    },
+    {
+      "tag": "Tambahan_Biaya _Custom_Itenerary",
+      "patterns": ["Apakah ada tambahan biayanya jika kami membuat itenerary sendiri?","Adakah tambahan biaya untuk itenerary custom?","apa ada tambahan biaya untuk custom itenerary?"],
+      "responses": ["Itinerary tidak akan dikenakan tambahan biaya selama masih dalam jarak rute perjalanan dan durasi waktu yang kami sampaikan pada itinerary asli dari kami. Tambahan dan pengurangan biaya tergantung pada penambahan maupun pengurangan fasilitas yang di masukkan oleh pengguna."],
+      "context": [""]
+    },
+    {
+      "tag": "Diskon_Tertentu",
+      "patterns": ["Apakah ada diskon jika kami tidak menggunakan satu fasilitas tertentu di itenerary?","Adakah diskon untuk fasilitas yang tidak digunakan?","apa ada diskon untuk fasilitas yang tidak digunakan?","Ada diskon parsial?","Tersedia diskon parsial?"],
+      "responses": ["Mohon maaf, saat ini kami belum menerapkan diskon parsial untuk paket yang sudah ditetapkan."],
+      "context": [""]
     }
   ]
 }
